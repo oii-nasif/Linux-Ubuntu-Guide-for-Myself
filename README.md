@@ -22,3 +22,8 @@
 ---------------------------------------------
 1. https://www.omicronlab.com/bangla-fonts.html
 ---------------------------------------------
+
+#### minimize the dock
+---------------------------------------------
+1. gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'focus-minimize-or-previews'
+---------------------------------------------
