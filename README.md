@@ -2,7 +2,7 @@
 
 #### Installing Software
 * Pycharm  `sudo snap install pycharm-professional --classic`
-* Uninstall Pycharm `sudo snap remove pycharm-professional`
+
 
 ---------------------------------------------
 install chrome
@@ -14,6 +14,7 @@ install chrome
 install pycharm-professional
 ---------------------------------------------
 1. sudo snap install pycharm-professional --classic
+2. Uninstall Pycharm `sudo snap remove pycharm-professional`
 
 ---------------------------------------------
 dpkg problem solution
