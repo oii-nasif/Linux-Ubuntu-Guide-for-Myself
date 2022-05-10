@@ -27,3 +27,8 @@
 ---------------------------------------------
 1. gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'focus-minimize-or-previews'
 ---------------------------------------------
+
+#### Install Codecs and Microsoft fonts 
+
+sudo apt install ubuntu-restricted-extras
+
