@@ -1,5 +1,6 @@
 ### Software Installation 
 1. **Google Chrome**
+
     * Download the chrome debian file ( [Google Chrome Download](updatethelink) )
 ```sh
 sudo dpkg -i google-chrome-stable_current_amd64.deb
@@ -13,12 +14,19 @@ sudo snap install pycharm-professional --classic
 sudo apt install ubuntu-restricted-extras
 ```
 
+
+----------------------
+
 ### Problems Installation
 1. **Solve Dependency Problem**
+
     * installation command before and after this command
 ```sh
 sudo apt -f install
 ```
+
+
+----------------------
 
 ### Different Setups
 1. **Minimize the Dock**
@@ -27,4 +35,5 @@ gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'focus-minimi
 ```
 
 2. **Download Bengali Fonts**
+
     * [Omicronlab Bengali Fonts](https://www.omicronlab.com/bangla-fonts.html)
