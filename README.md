@@ -13,6 +13,11 @@ sudo snap install pycharm-professional --classic
 ```sh
 sudo apt install ubuntu-restricted-extras
 ```
+4. **Create Python Virtual Environment**
+```sh
+pip install virtual-env
+virtual-env --python=python3.9 envname
+```
 
 
 ----------------------
