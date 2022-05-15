@@ -15,8 +15,8 @@ sudo apt install ubuntu-restricted-extras
 ```
 4. **Create Python Virtual Environment**
 ```sh
-pip install virtual-env
-virtual-env --python=python3.9 envname
+sudo apt install python3-virtualenv
+virtualenv --python=python3.9 envname
 ```
 
 
