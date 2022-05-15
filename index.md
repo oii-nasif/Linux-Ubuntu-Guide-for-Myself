@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
+### Software Installation 
+1. **Google Chrome**
 
-You can use the [editor on GitHub](https://github.com/oii-nasif/Linux-Ubuntu-Guide-for-Myself/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+    * Download the chrome debian file ( [Google Chrome Download](updatethelink) )
+```sh
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+```
+2. **Pycharm Professional**
+```sh
+sudo snap install pycharm-professional --classic
+```
+3. **Install Codecs and Microsoft Fonts**
+```sh
+sudo apt install ubuntu-restricted-extras
+```
+4. **Create Python Virtual Environment**
+```sh
+pip install virtual-env
+virtual-env --python=python3.9 envname
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
+----------------------
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/oii-nasif/Linux-Ubuntu-Guide-for-Myself/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Problems Installation
+1. **Solve Dependency Problem**
 
-### Support or Contact
+    * installation command before and after this command
+```sh
+sudo apt -f install
+```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+----------------------
+
+### Different Setups
+1. **Minimize the Dock**
+```sh
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'focus-minimize-or-previews'
+```
+
+2. **Download Bengali Fonts**
+
+    * [Omicronlab Bengali Fonts](https://www.omicronlab.com/bangla-fonts.html)
